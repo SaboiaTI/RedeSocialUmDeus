@@ -1,0 +1,26 @@
+<?php
+
+	// --------------------------------------------------------------------------------
+	// Login.php
+	// @author Saboia Tecnologia da Informação <relacionamento@saboia.com.br>
+	// @version 1.0
+	// usuário da última alteração: william.campanari
+	// data da última alteração: 09/04/2011 19:38
+	// --------------------------------------------------------------------------------
+	
+$serverDB 	= "localhost";
+$userDB		= "root";
+$passDB		= "EstaEhsu4S3nh@";
+$nameDB		= "hom-accl-umdeus";
+
+	// conexão ao BD:
+	$conn = mysql_connect($serverDB, $userDB, $passDB) or die('Could not connect: ' . mysql_error());
+	mysql_select_db($nameDB) or die('Could not select database');
+
+	// conexão ao BD: para ser utilizada com o comando mysqli_multi_query
+	$conni = mysqli_connect($serverDB, $userDB, $passDB, $nameDB) or die('Could not connect: ' . mysql_error());
+
+
+	require_once ($_SERVER['DOCUMENT_ROOT'] . "/lib/AppStart.php");
+
+?>

@@ -1,0 +1,163 @@
+div#content > div#video {
+	display:inline;
+}
+
+div#logo-slogan {
+	height:50px;
+}
+
+div#content > div#introduction {
+	display:inline;
+}
+
+div#content > aside#profile {
+	display:inline;
+}
+
+div#content > section#main-flow {
+	display:inline;
+}
+
+div#content > aside#banner {
+	display:inline;
+}
+
+div#content > aside#profile > div#friends > div.user div.name-location {
+	display:inline;
+}
+
+section#main-flow div.user div.button {
+	display:inline;
+	float:none;
+}
+
+section#main-flow div.user div.name-location ,
+section#main-flow div.conversation div.name-location  {
+	padding-left:5px;
+}
+
+div#content > section#main-flow > nav#post-navigation > ul > li {
+	display:inline;
+}
+
+nav#feed-navigation > ul > li:hover, div#content > aside#profile > nav#feed-navigation > ul > li.active a { 
+	color:#FFF 
+} 
+
+nav#feed-navigation > ul > li:hover, div#content > aside#profile > nav#feed-navigation > ul > li a:hover { 
+	color:#FFF 
+} 
+
+div#content > section#main-flow > div.post-box .share-button {
+	display:inline; 
+}
+
+form#group-create p label {
+	display:inline;
+}
+
+div#content > section#main-flow > div.post-box div#share-preview-thumb {
+	display:inline;
+}
+
+div#content > section#main-flow > div.post-box div#share-preview-description {
+	display:inline;
+}
+
+div#content > section#main-flow div.comment-box .shared-button {
+	display:inline; 
+}
+
+div#content > section#main-flow article.post div.post-photo {
+	display:inline;
+}
+
+div#content > section#main-flow article.post div.post-info {
+	display:inline;
+}
+
+div#content > aside#banner > div#invite-message > div#invite div.icon,
+div#content > aside#banner > div#invite-message > div#message div.icon {
+	display:inline;
+}
+
+div#content > aside#banner > div#invite-message > div#invite div.phrase,
+div#content > aside#banner > div#invite-message > div#message div.phrase {
+	display:inline;
+}
+
+header > div#box-login label {
+	display:inline;
+}
+
+section#main-flow div.user,
+section#main-flow div.page,
+section#main-flow div.conversation {
+	height:75px;
+	position:relative;
+}
+
+section#main-flow div.user div.photo, 
+section#main-flow div.conversation div.photo,
+section#main-flow div.page div.photo {
+	display:inline;
+}
+
+section#main-flow div.user div.name-location, 
+section#main-flow div.conversation div.name-location,
+section#main-flow div.page div.name-location {
+	display:inline;
+}
+
+section#main-flow div.user div.button , 
+section#main-flow div.conversation div.button ,
+section#main-flow div.page div.button {
+	display:inline;
+	position:absolute;
+	right:15px
+}
+
+section#main-flow form#message-form label.label {
+	display:inline;
+}
+
+ul.page-list li.page-item > div.photo {
+	display:inline;
+}
+
+ul.page-list li.page-item > div.name-location {
+	display:inline;
+}
+
+div#content > aside#banner div.search-box {
+	position:relative
+}
+
+div#content > aside#banner div.search-box a.maximize, 
+div#content > aside#banner div.search-box a.minimize {
+
+	position:absolute; right:10px;
+
+}
+
+div.form-step {
+
+	display:block;
+	width:100px;
+	height:67px;
+	
+	margin:0px;
+	
+	float:left;
+	
+	padding:20px 15px 0 70px;
+}
+
+div.arrow-step {
+	display:block;
+	float:left;
+}
+
+form#new-user {
+	clear:both;
+}	
